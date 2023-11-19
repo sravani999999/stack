@@ -26,6 +26,13 @@ def get_book(book_id):
         
     return {'error':'Book not found'}
 
+#POST API
+@app.route('/books', methods=['POST'])
+def create_book():
+    new_book={"id":len(books)+1, "title":request.json["title"], "author":request.json["author"]}
+    books.append(new_book)
+    return new_book
+
 #run the application
 if __name__=='__main__':
     app.run(debug=True)
