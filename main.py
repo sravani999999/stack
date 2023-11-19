@@ -21,7 +21,7 @@ def get_books():
 @app.route('/books/<int:book_id>', methods=['GET'])
 def get_book(book_id):
     for book in books:
-        if books['id']==book_id:
+        if book["id"]==book_id:
             return book
         
     return {'error':'Book not found'}
