@@ -33,6 +33,16 @@ def create_book():
     books.append(new_book)
     return new_book
 
+#PUT
+@app.route('/books/<int:book_id>',methods = ['PUT'])
+def update_book(book_id):
+    for book in books:
+        if book['id']==book_id:
+            book['title']=request.json['title']
+            book['author']=request.json['author']
+            return book
+    return {'error':'book not found'}
+
 #run the application
 if __name__=='__main__':
     app.run(debug=True)
