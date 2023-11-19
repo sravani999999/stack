@@ -43,6 +43,16 @@ def update_book(book_id):
             return book
     return {'error':'book not found'}
 
+#Delete a book
+@app.route('/books/<int:book_id>',methods = ['DELETE'])
+def delete_book(book_id):
+    for book in books:
+        if book['id']==book_id:
+            books.remove(book)
+            return {"data":"book deleted successfully"}
+    return {"error":"book not found"}
+
+
 #run the application
 if __name__=='__main__':
     app.run(debug=True)
