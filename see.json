@@ -1,0 +1,86 @@
+{
+    "note_system": {
+        "users": [
+            {
+                "id": 1,
+                "username": "user1",
+                "notes": [
+                    {
+                        "note_id": 101,
+                        "title": "Meeting Notes",
+                        "content": "Discussion about project XYZ.",
+                        "timestamp": "2023-11-27T10:00:00Z",
+                        "labels": [
+                            "project",
+                            "meeting"
+                        ],
+                        "highlights": false,
+                        "indexing": true,
+                        "bullet_points": [
+                            "Point 1",
+                            "Point 2",
+                            "Point 3"
+                        ]
+                    },
+                    {
+                        "note_id": 102,
+                        "title": "Ideas",
+                        "content": "Brainstorming ideas for upcoming features.",
+                        "timestamp": "2023-11-27T14:30:00Z",
+                        "labels": [
+                            "ideas",
+                            "brainstorming"
+                        ],
+                        "highlights": true,
+                        "indexing": true,
+                        "bullet_points": [
+                            "Idea 1",
+                            "Idea 2",
+                            "Idea 3"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "username": "user2",
+                "notes": [
+                    {
+                        "note_id": 201,
+                        "title": "To-Do List",
+                        "content": "Complete tasks A, B, and C.",
+                        "timestamp": "2023-11-27T09:45:00Z",
+                        "labels": [
+                            "tasks",
+                            "to-do"
+                        ],
+                        "highlights": false,
+                        "indexing": true,
+                        "bullet_points": [
+                            "Task A",
+                            "Task B",
+                            "Task C"
+                        ]
+                    },
+                    {
+                        "note_id": 202,
+                        "title": "Project Update",
+                        "content": "Status update on ongoing project.",
+                        "timestamp": "2023-11-27T16:00:00Z",
+                        "labels": [
+                            "project",
+                            "update"
+                        ],
+                        "highlights": true,
+                        "indexing": true,
+                        "bullet_points": [
+                            "Update 1",
+                            "Update 2",
+                            "Update 3"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
