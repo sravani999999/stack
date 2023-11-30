@@ -2,20 +2,21 @@
     "note_system": {
         "users": [
             {
-                "id": 1,
                 "username": "user1",
                 "notes": [
                     {
                         "note_id": 101,
                         "title": "Meeting Notes",
+                        "syllabus": "content",
+                        "subject": "evs",
                         "content": "Discussion about project XYZ.",
                         "timestamp": "2023-11-27T10:00:00Z",
+                        "revise": "todo",
                         "labels": [
                             "project",
                             "meeting"
                         ],
                         "highlights": false,
-                        "indexing": true,
                         "bullet_points": [
                             "Point 1",
                             "Point 2",
@@ -25,14 +26,16 @@
                     {
                         "note_id": 102,
                         "title": "Ideas",
+                        "syllabus": "content",
+                        "subject": "evs",
                         "content": "Brainstorming ideas for upcoming features.",
                         "timestamp": "2023-11-27T14:30:00Z",
+                        "revise": "todo",
                         "labels": [
                             "ideas",
                             "brainstorming"
                         ],
                         "highlights": true,
-                        "indexing": true,
                         "bullet_points": [
                             "Idea 1",
                             "Idea 2",
@@ -42,20 +45,21 @@
                 ]
             },
             {
-                "id": 2,
                 "username": "user2",
                 "notes": [
                     {
                         "note_id": 201,
                         "title": "To-Do List",
+                        "syllabus": "content",
+                        "subject": "evs",
                         "content": "Complete tasks A, B, and C.",
                         "timestamp": "2023-11-27T09:45:00Z",
+                        "revise": "todo",
                         "labels": [
                             "tasks",
                             "to-do"
                         ],
                         "highlights": false,
-                        "indexing": true,
                         "bullet_points": [
                             "Task A",
                             "Task B",
@@ -65,14 +69,16 @@
                     {
                         "note_id": 202,
                         "title": "Project Update",
+                        "syllabus": "content",
+                        "subject": "evs",
                         "content": "Status update on ongoing project.",
                         "timestamp": "2023-11-27T16:00:00Z",
+                        "revise": "todo",
                         "labels": [
                             "project",
                             "update"
                         ],
                         "highlights": true,
-                        "indexing": true,
                         "bullet_points": [
                             "Update 1",
                             "Update 2",
